@@ -89,7 +89,7 @@ public abstract class Inimigo extends Personagem {
         }
         if (isAtordoado()) {
             System.out.println(nome + " está atordoado e perdeu seu turno!");
-            setAtordoado(false); // Reseta o estado de atordoamento após um turno
+            setAtordoado(false);
         }
         if (isQueimando()) {
             Random random = new Random();
